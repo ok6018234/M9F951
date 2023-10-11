@@ -1,0 +1,6 @@
+build*/
+*.user
+*.pdb
+git_clone.bat
+git_init.bat
+git_push.bat
