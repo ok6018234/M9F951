@@ -1,0 +1,46 @@
+嵌汇编说明：
+1.格式
+  #asm
+  多条指令
+  #endasm
+2.没有位定义
+  不能使用 bset btc0ie，只能用 bset intcr0,0
+3.指令中参数d的0,1由和f、w代替，f代替,1 ,w代替,0 不能直接写0,1
+  如：call sum,f使用快速保存，但不能直接写call sum,1
+  call,return,retie非快速保存直接省略，不使用w
+  如：call sum,w 格式错误，正确应为：call sum
+4.指令参数a的0,1由b，c代替，b代表1，c代表0，不能直接写0,1
+  如：movar ioa,c
+  嵌汇编中指令参数a默认值分两种情况，如果是特殊功能寄存器它会自动识别地址，
+  如果是定义在RAM区的变量，默认值为1，当使用快速寻址RAM的变量时，需要用c指定，不能省略，
+  当使用非快速寻址的寄存器时，要设置好bsr，并用b指定使用bsr
+5.指令和特殊功能寄存器可以使用大写或小写但不能大小写混
+  即：可以使用IOA或ioa但不能使用IOa
+6.调用外部函数或全局变量在名字前加_
+  调用局部变量时写法是：函数名@变量名
+  例如：
+  unsigned char cnt;
+  #asm
+  movar  _cnt
+  #endasm
+  定义了char型变量cnt，在汇编中调用的话用_cnt
+  如果cnt变量是在main函数中定义的，那么调用的时候要用:main@cnt
+  
+7.调用外部函数传参
+  以示例说明
+  void sum(unsigned char a,unsigned int b)
+  {
+     函数处理
+  }
+  #asm
+  movia 0x08
+  movar sum@a
+  movia 0x09
+  movar sum@b
+  movia 0x10
+  movar sum@b+1
+  call  _sum
+  #endasm
+  在嵌汇编中调用c函数，首先进行传参，参数名为：函数名@参数名,每个参数对应的地址为char型（8bit），
+  如果参数为int型则函数名@参数名为低八位地址，函数名@参数名+1为高八位地址。
+  函数返回值若为char型则放置于A中，函数返回值若为int则放于?_函数名 变量中，?_函数名为低8位，?_函数名+1位高8位

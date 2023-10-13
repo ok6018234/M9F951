@@ -1,0 +1,69 @@
+[Project]
+Project=ZCW-ICE
+[File Count]
+Count=8
+[Filter Index]
+Index=2
+[Project Files]
+File0=DEFINE.C
+File1=DEFINE.H
+File2=LEDMGR.C
+File3=LEDMGR.H
+File4=MAIN.C
+File5=TIMERMGR.C
+File6=TIMERMGR.H
+File7=TYPE_DEFINE.H
+File8=USBD_CORE.C
+File9=USBD_CORE.H
+File10=USBD_DEFINE.H
+File11=USBD_DESC.C
+File12=USBD_DESC.H
+File13=USBD_HID_LIB.H
+File14=USBD_ISTR.C
+File15=USBD_ISTR.H
+[Settings]
+Device=M9F951
+ConfigBitValue0=192
+ConfigBitValue1=4
+ConfigBitValue2=64
+ConfigBitValue3=12
+ConfigBitValue4=127
+ConfigBitValue5=148
+ConfigBitValue6=0
+ConfigBitValue7=255
+ConfigBitValue8=66
+Output=.
+PostBuild=0
+PostBuildCommand=
+[Files]
+File0=LEDMGR.C|1 5 1681 24 703
+File1=LEDMGR.H|1 5 1681 24 703
+File2=TIMERMGR.C|1 5 1681 24 703
+File3=MAIN.C|1 5 1681 24 703
+File4=DEFINE.C|1 5 1681 24 703
+File5=DEFINE.H|1 5 1681 24 703
+File6=TIMERMGR.H|1 5 1681 24 703
+File7=TYPE_DEFINE.H|1 5 1681 24 703
+OpenFileCounts=8
+File8=USBD_DEFINE.H|1 5 1681 24 653
+File9=USBD_CORE.H|1 5 1681 24 653
+File10=DEFINE.H|1 5 1681 24 653
+File11=LEDMGR.H|1 5 1681 24 653
+File12=TIMERMGR.H|1 5 1681 24 653
+File13=TYPE_DEFINE.H|1 5 1681 24 653
+[Break]
+Count=0
+[Watch0]
+Count=4
+Watch0=LEDDuty 0
+Watch1=AllBreathDuty 0
+Watch2=LEDTimer 0
+Watch3=LEDCathodeLine 0
+[Watch1]
+Count=0
+[Watch2]
+Count=0
+[RomArea]
+Start=0
+End=7FFF
+CodeOffset=

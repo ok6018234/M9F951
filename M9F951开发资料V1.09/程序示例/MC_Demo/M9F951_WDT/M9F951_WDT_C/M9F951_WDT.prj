@@ -1,0 +1,37 @@
+[Project]
+Project=ZCW-ICE
+[File Count]
+Count=3
+[Filter Index]
+Index=2
+[Project Files]
+File0=m9f951.H
+File1=M9F951_WDT.C
+File2=MASSESCHIP_DEFINE.H
+[Settings]
+Device=M9F951
+ConfigBitValue0=132
+ConfigBitValue1=4
+ConfigBitValue2=79
+ConfigBitValue3=12
+ConfigBitValue4=1
+ConfigBitValue5=24
+ConfigBitValue6=0
+ConfigBitValue7=255
+ConfigBitValue8=66
+Output=.
+PostBuild=0
+PostBuildCommand=
+[Files]
+File0=M9F951_WDT.C|3 52 616 52 526
+OpenFileCounts=3
+File1=MASSESCHIP_DEFINE.H|1 25 1269 25 487
+File2=m9f951.H|1 50 1294 50 512
+[Break]
+Count=0
+[Watch0]
+Count=0
+[Watch1]
+Count=0
+[Watch2]
+Count=0

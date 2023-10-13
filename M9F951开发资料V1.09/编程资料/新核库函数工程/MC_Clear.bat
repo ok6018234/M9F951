@@ -1,0 +1,16 @@
+del *.cod /s
+del *.cof /s
+del *.cofv /s
+del *.err /s
+del *.lst /s
+del *.map /s
+del *.o /s
+del *.out /s
+del *.sdb /s
+del *.d /s
+del *.p1 /s
+del *.pre /s
+del *.d /s
+del *.bak /s
+::del *.A /s
+::del *.  /s  

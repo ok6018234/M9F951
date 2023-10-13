@@ -1,0 +1,38 @@
+[Project]
+Project=ZCW-ICE
+[File Count]
+Count=2
+[Filter Index]
+Index=1
+[Project Files]
+File0=M9F951.INC
+File1=M9F951_TC1.ASM
+[Settings]
+Device=M9F951
+ConfigBitValue0=132
+ConfigBitValue1=4
+ConfigBitValue2=79
+ConfigBitValue3=10
+ConfigBitValue4=1
+ConfigBitValue5=24
+ConfigBitValue6=0
+ConfigBitValue7=255
+ConfigBitValue8=66
+Output=.
+PostBuild=0
+PostBuildCommand=
+[Files]
+File0=M9F951_TC1.ASM|3 26 1480 26 509
+OpenFileCounts=2
+File1=M9F951.INC|1 26 1504 26 461
+[Break]
+Count=0
+BP0=1 61 1
+[Watch0]
+Count=2
+Watch0=FSR0L 0
+Watch1=FSR0H 0
+[Watch1]
+Count=0
+[Watch2]
+Count=0

@@ -1,0 +1,43 @@
+[Project]
+Project=ZCW-ICE
+[File Count]
+Count=3
+[Filter Index]
+Index=2
+[Project Files]
+File0=ADMgr.c
+File1=ADMgr.h
+File2=Main.c
+File3=Type_define.h
+[Settings]
+Device=M9F951
+ConfigBitValue0=192
+ConfigBitValue1=4
+ConfigBitValue2=64
+ConfigBitValue3=12
+ConfigBitValue4=127
+ConfigBitValue5=148
+ConfigBitValue6=0
+ConfigBitValue7=255
+ConfigBitValue8=66
+Output=.
+PostBuild=0
+PostBuildCommand=
+[RomArea]
+Start=
+End=
+CodeOffset=
+[Files]
+File0=Main.c|1 5 1592 24 780
+File1=ADMgr.h|1 5 1592 24 780
+File2=ADMgr.c|1 5 1592 24 780
+OpenFileCounts=3
+[Break]
+Count=0
+[Watch0]
+Count=1
+Watch0=advalue 0
+[Watch1]
+Count=0
+[Watch2]
+Count=0

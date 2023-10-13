@@ -1,0 +1,8 @@
+该工程测试工具为USB3CV_2.2.3.0版本，即截至2022/4/13 USBIF官方最新测试工具。其中工程的唤醒按键为IOA3
+测试内容：
+Chapter 9 Tests[USB 2 devices]
+Connector Type Tests -> Standard USB Current
+HID Tests
+
+详细测试报告见工程目录
+

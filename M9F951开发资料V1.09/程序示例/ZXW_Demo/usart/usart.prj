@@ -1,0 +1,54 @@
+[Project]
+Project=ZCW-ICE
+[File Count]
+Count=12
+[Filter Index]
+Index=2
+[Project Files]
+File0=Main.c
+File1=TimerMgr.c
+File2=TimerMgr.h
+File3=Type_define.h
+File4=Usart1App.c
+File5=Usart1App.h
+File6=Usart1Mgr.c
+File7=Usart1Mgr.h
+File8=Usart2App.c
+File9=Usart2App.h
+File10=Usart2Mgr.c
+File11=Usart2Mgr.h
+[Settings]
+Device=M9F951
+ConfigBitValue0=192
+ConfigBitValue1=4
+ConfigBitValue2=64
+ConfigBitValue3=11
+ConfigBitValue4=1
+ConfigBitValue5=148
+ConfigBitValue6=0
+ConfigBitValue7=255
+ConfigBitValue8=66
+Output=.
+PostBuild=0
+PostBuildCommand=
+[RomArea]
+Start=0
+End=7FFF
+CodeOffset=
+[Files]
+File0=Usart1Mgr.h|1 5 1700 24 696
+File1=Usart1Mgr.c|1 5 1700 24 696
+File2=Usart1App.c|1 5 1700 24 696
+File3=Main.c|1 5 1700 24 696
+File4=Usart2Mgr.c|1 5 1700 24 696
+OpenFileCounts=6
+File5=TimerMgr.c|1 5 1700 24 696
+[Break]
+Count=0
+[Watch0]
+Count=1
+Watch0=0FD7 0
+[Watch1]
+Count=0
+[Watch2]
+Count=0

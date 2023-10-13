@@ -1,0 +1,49 @@
+[Project]
+Project=ZCW-ICE
+[File Count]
+Count=2
+[Filter Index]
+Index=2
+[Project Files]
+File0=MAIN.C
+File1=TYPE_DEFINE.H
+File2=USBD_CORE.C
+File3=USBD_CORE.H
+File4=USBD_DEFINE.H
+File5=USBD_DESC.C
+File6=USBD_DESC.H
+File7=USBD_HID_LIB.H
+File8=USBD_ISTR.C
+File9=USBD_ISTR.H
+[Settings]
+Device=M9F951
+ConfigBitValue0=192
+ConfigBitValue1=4
+ConfigBitValue2=64
+ConfigBitValue3=12
+ConfigBitValue4=1
+ConfigBitValue5=148
+ConfigBitValue6=0
+ConfigBitValue7=255
+ConfigBitValue8=66
+Output=.
+PostBuild=0
+PostBuildCommand=
+[Files]
+File0=MAIN.C|1 5 1681 24 703
+OpenFileCounts=1
+File1=USBD_CORE.C|1 5 1681 24 653
+[Break]
+BP0=0 60 1
+Count=0
+[Watch0]
+Count=1
+Watch0=ledduty 0
+[Watch1]
+Count=0
+[Watch2]
+Count=0
+[RomArea]
+Start=0
+End=7FFF
+CodeOffset=

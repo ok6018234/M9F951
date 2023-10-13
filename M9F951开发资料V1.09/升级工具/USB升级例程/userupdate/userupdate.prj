@@ -1,0 +1,64 @@
+[Project]
+Project=ZCW-ICE
+[File Count]
+Count=17
+[Filter Index]
+Index=2
+[Project Files]
+File0=CMP.C
+File1=CMP.H
+File2=FLASHMGR.C
+File3=FLASHMGR.H
+File4=HWCONFIG.H
+File5=MAIN.C
+File6=USBD_CORE.C
+File7=USBD_CORE.H
+File8=USBD_DEFINE.H
+File9=USBD_DESC.C
+File10=USBD_DESC.H
+File11=USBD_HID_LIB.H
+File12=USBD_ISTR.C
+File13=USBD_ISTR.H
+File14=USBD_USER.C
+File15=USBD_USER.H
+File16=usbstatic.lpp
+[Settings]
+Device=M9F951
+ConfigBitValue0=192
+ConfigBitValue1=4
+ConfigBitValue2=64
+ConfigBitValue3=12
+ConfigBitValue4=1
+ConfigBitValue5=148
+ConfigBitValue6=254
+ConfigBitValue7=255
+ConfigBitValue8=66
+Output=.
+PostBuild=0
+PostBuildCommand=
+[RomArea]
+Start=1000
+End=7FFF
+CodeOffset=1000
+[Files]
+File0=MAIN.C|1 5 1681 24 634
+File1=USBD_CORE.C|1 5 1681 24 634
+File2=USBD_USER.C|1 5 1681 24 634
+File3=HWCONFIG.H|1 5 1681 24 634
+File4=FLASHMGR.C|1 5 1681 24 634
+File5=USBD_DESC.C|1 5 1681 24 634
+File6=USBD_DEFINE.H|1 5 1681 24 634
+File7=USBD_DESC.H|1 5 1681 24 634
+File8=USBD_HID_LIB.H|1 5 1681 24 634
+File9=USBD_CORE.H|1 5 1681 24 634
+OpenFileCounts=12
+File10=FLASHMGR.H|1 5 1681 24 634
+File11=USBD_USER.H|1 5 1681 24 634
+[Break]
+Count=0
+[Watch0]
+Count=0
+[Watch1]
+Count=0
+[Watch2]
+Count=0
